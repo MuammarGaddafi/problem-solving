@@ -12,6 +12,19 @@ Any parameter for hashing should be immutable so we can say it's hashable, becau
 
 As we see, we take the key of each dictionary as parameter for the hash function, then we get the precised index for it in the table (! The dict key is hashable, not like the whole structure, bcz the dict key is immutable, so we can hash it)
 
+![WhatsApp Image 2025-06-28 at 16 23 51_8f165158](https://github.com/user-attachments/assets/6a79b960-3676-4ef6-a4fe-a0405e8d38cd)
+
+As we see, hashing even give us the opportunity to have a kind of string index, any immutable thing could be an index since the hash function could do the job of transforming it and making it a valid index, like we see on the left array we have normal indexes stock[0] , stock[1] ....
+But on the right we can say stock["6 march"] and 6 march there is string which is the key of 340 value in the dictionary, after passing march 6 (which is a date) throug hash function, the return was 0, then we put its corresponding value in stock[0] cell
+
+### hash implementation :
+How to implement a hash table also known as hashmap in different programming languages
+We notice that in python their implementation is a dictionary
+
+
+![WhatsApp Image 2025-06-28 at 16 29 40_7d0f3b32](https://github.com/user-attachments/assets/5ce8af7f-75e9-4603-924f-f411a568ef85)
+
+
 ### problems we may face during hashing : 
 It's possible that hashing two different keys may result in collision, which is having the same value after hashing them
 Methods to avoid and deal with collision : 
@@ -20,11 +33,45 @@ Closed adressing : (we use it when the collision is more likely to happen,like w
 
 Chaining 
 
+![WhatsApp Image 2025-06-28 at 21 59 14_d95b01bd](https://github.com/user-attachments/assets/dc46fc89-0714-4471-b822-927f54a9b3b4)
+
+
 Open adressing: (you can put in another cell in the array) 
 
 Linear probing 
+
+![WhatsApp Image 2025-06-28 at 21 59 16_eb1a4ed6](https://github.com/user-attachments/assets/85f80170-5c42-4ae7-90b3-88fcafc7e6de)
+
 Quadratic probing
 
 
 ### use cases : 
 Hashing usually used to index and assign huge amounts of data, that's why it is widely used in database indexing, compilers,caching, password authentication etc ..
+Example of useful hashing in storing data : 
+Let's imagine we have a user who's trying to access his account, he enters his username, so we hash his username to directly get his location in our data base then we now have all the informations needed about his account and we can load them for the user
+
+
+
+## conclusion : 
+stocking values in normal way :
+![WhatsApp Image 2025-06-28 at 21 53 35_a1b493b6](https://github.com/user-attachments/assets/fb57ef11-cdbd-4598-8e04-2af3d0a89f47)
+with hashing :
+![WhatsApp Image 2025-06-28 at 21 53 35_81765754](https://github.com/user-attachments/assets/1c1a50b1-2919-4d72-9d3c-58b92f01309d)
+difference :
+![WhatsApp Image 2025-06-28 at 21 53 36_151e3848](https://github.com/user-attachments/assets/573783e0-5578-40c0-a10f-d68027c6efad)
+
+to sum up :
+Difference between hash method and normal method to store values and data : 
+
+You a value, lets say integers 1 2 44 5 7 0 99, if you want to store them in classical array they would be stored in indexed cells 0 1 2 3 4 ... 
+If you want to search an element then you have to do it linearly 
+
+On the other hand : hashing allow you to access or search any value even if you don't know its index, the hash function would give you the exact index of it 
+
+Example : you need to know where is  "9 march" stored in the array 
+
+-in traditional way : you have to go through the whole array linearly until array[i]=="9 march" 
+With hash method :
+Hashfunct(9 march) gives you the exact index of it
+
+
