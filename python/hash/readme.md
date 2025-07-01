@@ -86,7 +86,7 @@ Hashfunct(9 march) gives you the exact index of it
 
 # how to work with hash practically :
 
-One the most common problem in IT world is managing a large number of data and objects at the same time, as an example, imagine you're building an application that needs to support a large number of user and accounts, that have user name full name display name etc...
+One of the most common problem in IT world is managing a large number of data and objects at the same time, as an example, imagine you're building an application that needs to support a large number of user and accounts, that have user name full name display name etc...
 New accounts are being added all the time, and older accounts are being deleted also with unused accounts are being deactivated
 
 ![WhatsApp Image 2025-06-29 at 14 54 45_eaa3047f](https://github.com/user-attachments/assets/dace0e2e-9772-4167-838d-cbe390f8a0e6)
