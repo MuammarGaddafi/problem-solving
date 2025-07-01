@@ -3,6 +3,10 @@
 
 a hash is an ID of value that helps us to find things quickly unlike the linear classical access and search, so to hash something is to pass it through a hash function which would return an id (It is about transforming the value into an ID, rather than assigning an ID to it, as many mistakenly believe.
 
+- Hashing: The overall process of converting data into a hash value.
+- The number produced from a hash function is called a hash
+- So hashmap or hasbtable is map/table of values produced from hash function which are hashs
+
 ![WhatsApp Image 2025-06-27 at 15 15 02_81912cf2](https://github.com/user-attachments/assets/f8635ecf-1fe5-454d-9d44-9b863bc31a4a)
 
 Any parameter for hashing should be immutable so we can say it's hashable, because we cannot hash a mutable parameter which can vary at any time, otherwise it cannot be a key, that's why a tuple is hashable because you cannot modify it unlike tables lists sets... Frozen sets by the way could be hashable since they are immutable
@@ -70,8 +74,29 @@ On the other hand : hashing allow you to access or search any value even if you 
 
 Example : you need to know where is  "9 march" stored in the array 
 
+
 -in traditional way : you have to go through the whole array linearly until array[i]=="9 march" 
 With hash method :
 Hashfunct(9 march) gives you the exact index of it
+
+
+
+************************************************************************************************************************************************************
+
+
+# how to work with hash practically :
+
+One the most common problem in IT world is managing a large number of data and objects at the same time, as an example, imagine you're building an application that needs to support a large number of user and accounts, that have user name full name display name etc...
+New accounts are being added all the time, and older accounts are being deleted also with unused accounts are being deactivated
+
+![WhatsApp Image 2025-06-29 at 14 54 45_eaa3047f](https://github.com/user-attachments/assets/dace0e2e-9772-4167-838d-cbe390f8a0e6)
+
+
+The simplest way to manage these profiles is to put them all in an array, and there it comes the role of hashing to find the particular account and data to provide the user with the needed services
+
+![WhatsApp Image 2025-06-29 at 14 54 46_229d4170](https://github.com/user-attachments/assets/0eafd444-8278-46fb-bacd-4ecd0f4614af)
+
+but while we work with hashing on problem solving and programming, we do not really need to do this whole process, because most of progrmmin languages offer us a built in hashmaps and free us from doing these steps in most of the times, like in python we do have dictionnariies that take key values, the programm automatically hash these keys and store them in the memory after passing them through hash func also with taking charge of collision managing, the following problems would give you more ideas on how to implement and use the hash map in our favor and to solve complexe problems
+
 
 
