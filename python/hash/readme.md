@@ -99,4 +99,11 @@ The simplest way to manage these profiles is to put them all in an array, and th
 but while we work with hashing on problem solving and programming, we do not really need to do this whole process, because most of progrmmin languages offer us a built in hashmaps and free us from doing these steps in most of the times, like in python we do have dictionnariies that take key values, the programm automatically hash these keys and store them in the memory after passing them through hash func also with taking charge of collision managing, the following problems would give you more ideas on how to implement and use the hash map in our favor and to solve complexe problems
 
 
+***************************************************************************************************************************************************************
+
+
+## my impressions after working and solving those problems with hash : where, how and in what cases can we implement and use hash :
+
+
+
 
