@@ -17,10 +17,12 @@ class Solution(object):
 
 """
 Approach
-we use the hashset to store every new n value ( to avoid the infenitive loop, when n takes an already existed value in the hashset, we end the loop and return false )
+we use the hashset to store every new n value ( to avoid the infenitive loop, when n takes an already existing value in the hashset, we end the loop and return false )
 
-how to get every n digit each time ? :
-we divide n (//) by 10 every number divided (//) by ten : the rest is the last digit of the number and the we assigns the result as the new value of n :
+how to get every n digits seperately every time ? :
+we divide n (//) by 10 :
+you should know that every value divided (//) by ten : the rest of it is the last digit of the number
+then we assign the result to n as a new value:
 n=147
 n%10=7
 n//10=14
