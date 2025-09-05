@@ -1,6 +1,6 @@
 # LETS LEARN C + +    +++++++++++++++++++++++++
 
-
+lets take an eye on the small deatils of cpp : 
 
 ## FIRST OF ALL, why the main function in cpp returns an int, exactly a 0 ? : 
 
@@ -86,6 +86,23 @@ the header (the included file ) :
 
 <hr> <hr> <hr>
 
+
+now lets dive deeper into more fundamental and bigger essentials of cpp : 
+
+### why the string class constructor (type) belongs to the std name space not rawly used like int char etc ... : 
+
+![WhatsApp Image 2025-09-05 at 22 29 20_cdfd2821](https://github.com/user-attachments/assets/1f2485ba-5188-4e8a-9c95-f5bea62083f2)
+
+
+### std::cout syntaxe : 
+
+print(a,b) --> std::cout a << b : first of all, any variable or item given to the cin to be printed, would be printed in line, so you should use the break tools if you want to print the item on new line
+
+concatenation of strings is possible in cpp : std::cout << name1+"+"+name2+"= love" 
+
+* you can print also in this way since the std out prints the outputs on same line : std::cout << "hello " << name :
+
+but its better to print it with concatenation to be considered as one message : std::cout << "hello " + name 
 
 
 
