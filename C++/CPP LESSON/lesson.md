@@ -46,9 +46,9 @@ if those operators are not overloaded (their functionality changed), so they are
 
 they move data into or out of streams
 
-- << is the insertion operator (used with std::cout) : we would insert to the output stream to print it
+- (<<) is the insertion operator (used with std::cout) : we would insert to the output stream to print it
 
-- > > is the extraction operator (used with std::cin) : we would extract the input of the user
+- (>>) is the extraction operator (used with std::cin) : we would extract the input of the user
 
 <img width="953" height="144" alt="image" src="https://github.com/user-attachments/assets/b30a8391-8554-4d6c-823f-e07e942491da" />
 
