@@ -311,6 +311,33 @@ here you can find more useful tools for strings :
 
 
 
+## THE LOOPS 
+
+
+### while and do while loops : 
+
+they don't need so much presentation, you know them well, they are like repeter jusqua and tant que in algorithm, the do while would always run the block of code inside the loop at least once,
+
+a while loop to read an unempty string : 
+
+<img width="601" height="289" alt="image" src="https://github.com/user-attachments/assets/72b0694f-78e7-4310-bd52-f0e6dd2867d2" />
+
+
+do while : 
+
+<img width="753" height="87" alt="image" src="https://github.com/user-attachments/assets/99c62d1d-49df-4415-9c79-402038e3b838" />
+
+
+<img width="518" height="238" alt="image" src="https://github.com/user-attachments/assets/f77f3685-36c2-4716-b79c-d1a8f42f6f5a" />
+
+
+### for loops : 
+
+<img width="543" height="225" alt="image" src="https://github.com/user-attachments/assets/c76aef9e-1519-432a-8f40-dfe2c0d5b45a" />
+
+so the for loop takes the first value that it would start from, the condition of running (actually it is the ending condition) and the incrementation (the steps to move by)
+
+
 
 
 
