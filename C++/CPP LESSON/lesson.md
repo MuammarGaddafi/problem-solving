@@ -338,6 +338,18 @@ do while :
 so the for loop takes the first value that it would start from, the condition of running (actually it is the ending condition) and the incrementation (the steps to move by)
 
 
+### break and continue ( used with loops) : 
+
+break : you already know it, you quit the loop immediately 
+
+continue : used to skip an iteration, lets take this example with for loop : 
+
+<img width="415" height="200" alt="image" src="https://github.com/user-attachments/assets/06acc6aa-c601-4863-87c7-f58bee929959" />
+
+
+<img width="985" height="652" alt="image" src="https://github.com/user-attachments/assets/8f272113-8e01-4f36-8a49-83eb1dc261f7" />
+
+do you see, the programm has skipped the 13th iteration
 
 
 
