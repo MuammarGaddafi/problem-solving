@@ -237,6 +237,79 @@ char x = 33/11 --> x would be the character with ascii code = 3 , if the divisio
 int x = 'A' --> x=65 
 
 
+### here you can find the reference book of cpp and all what you need about it related to functions and syntaxe : 
+
+lets take the example of math functions, here is the section where you can find any thing about math libary of cpp
+
+<img width="1253" height="680" alt="image" src="https://github.com/user-attachments/assets/1e359959-1f3f-4c94-9da3-d7fcaaaf3918" />
+
+
+
+### conditional statements : 
+
+<img width="654" height="355" alt="image" src="https://github.com/user-attachments/assets/aa6b75bd-0a78-42db-b9b8-399409a9a289" />
+
+
+### switch statement : 
+
+the switch is to apply a procedure depending on the appropriate case, the case is what the of the switch variable could be : 
+
+!!! at every case you should add the break statement, cz if the case is valid, the program quit the loop, otherwise the switch bloc would never come to an end
+
+the default case : 
+
+you don't need break statement with default, because the default is typically the last case in the block so the code would quit automatically, but you still can add it 
+
+<img width="492" height="431" alt="image" src="https://github.com/user-attachments/assets/ad74d92d-bf8c-403b-a0f5-6445fecde150" />
+
+
+<img width="617" height="371" alt="image" src="https://github.com/user-attachments/assets/43d1fc39-0803-4df4-b638-5310a8d15c5c" />
+
+
+lets make a calculator with switch : 
+
+
+<img width="658" height="509" alt="image" src="https://github.com/user-attachments/assets/f2008110-c456-4bf8-bb31-9d3fbb4aee3d" />
+
+
+<img width="719" height="576" alt="image" src="https://github.com/user-attachments/assets/879c8905-7b34-464c-9bbb-9c28b0b6f9cd" />
+
+
+### string methods : 
+
+the getaline : 
+
+<img width="416" height="38" alt="image" src="https://github.com/user-attachments/assets/e796c6fe-1eb8-43c1-bbc2-daa3466e88a2" />
+
+
+<img width="927" height="234" alt="image" src="https://github.com/user-attachments/assets/150005d1-83fd-40e3-b6f2-fc2b7800702a" />
+
+
+difference between reading a string input and declaring a string variable : why we need getaline just for input :
+
+
+<img width="927" height="681" alt="image" src="https://github.com/user-attachments/assets/c96d0dcb-249b-4dad-b75d-28820b8b586d" />
+
+
+
+mystring.clear --> clear the string
+
+mystring.append() --> append the string
+
+string element access : you can access with mystring.at(0 ) or mystring [ 0 ]  
+
+mystring.insert(index,element to insert)
+
+mystring.find(the element we want to find) --> returns the index of the element
+
+mystring.erase(debut,end) --> the bloc we want to erase 
+
+here you can find more useful tools for strings : 
+
+<img width="852" height="685" alt="image" src="https://github.com/user-attachments/assets/ae8f8e82-b316-4a8f-af8e-26ebced89bcd" />
+
+
+
 
 
 
