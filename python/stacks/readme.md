@@ -74,3 +74,7 @@ undo and redo principle, actually based on stacks
 
 ![WhatsApp Image 2025-08-21 at 16 35 09_9067f258](https://github.com/user-attachments/assets/3d81e946-e050-465f-ae21-82b70900f751)
 
+
+
+- valid parentheses, revealed for us the first useful stack implementations and how they can make our solution way more simpler, it is a problem about checking if every parentheses opened has its correspond closing paranthese, so we ve simply made a stack, filling it only with opened paranthese, if we find its end we pop it from the stack, if we found a new opened parenth we add it to the stack, and we know that the peek parenthese which is the last one found, should be the first one closed, this is why stack is so useful here  
+
