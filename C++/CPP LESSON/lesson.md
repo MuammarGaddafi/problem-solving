@@ -352,6 +352,35 @@ continue : used to skip an iteration, lets take this example with for loop :
 do you see, the programm has skipped the 13th iteration
 
 
+### random and its syntaxe : 
+
+the srand is generating a sequence of numbers where we will chose the range within it, srand it is fixing the seed which is the start point of this sequence, and time() returns the current time by seconds since 1970, so technically it is a huge number, and changes every time you re execute the code, so don't focus on it that much, we need it just to make the rand work 
+
+
+this is how to fix a range for rand : 
+
+random_number = min + rand() % (max - min + 1)
+
+
+
+### functions in cpp : 
+
+<img width="511" height="147" alt="image" src="https://github.com/user-attachments/assets/372cc6c1-9c98-46c7-b57b-be07a4825a63" />
+
+
+
+<img width="662" height="459" alt="image" src="https://github.com/user-attachments/assets/d13ba557-1009-4d6f-ac34-e543bd27f3f9" />
+
+<img width="894" height="466" alt="image" src="https://github.com/user-attachments/assets/5bbd28f1-66c7-4c77-af63-61f81c6bd8ca" />
+
+
+
+and this is in case of definition without declaration (should be before the bloc of code where you want to use it)
+
+<img width="620" height="480" alt="image" src="https://github.com/user-attachments/assets/6236f1d4-8b57-49b8-9081-9ba304941cec" />
+
+
+
 
 
 
