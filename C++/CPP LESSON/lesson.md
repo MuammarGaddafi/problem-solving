@@ -380,6 +380,68 @@ and this is in case of definition without declaration (should be before the bloc
 <img width="620" height="480" alt="image" src="https://github.com/user-attachments/assets/6236f1d4-8b57-49b8-9081-9ba304941cec" />
 
 
+#### functions overloading : 
+
+You know the concept of overloading from the oop lesson, so in cpp you can have an overloaded function which is having a different versions of the same function
+
+<img width="483" height="261" alt="image" src="https://github.com/user-attachments/assets/dd09213b-3d95-4093-969c-8f0ae291a9b0" />
+
+<img width="510" height="283" alt="image" src="https://github.com/user-attachments/assets/1485d396-98bb-441d-bc77-43776aebb270" />
+
+
+
+
+### arrays : 
+
+arrays are the same as the table concept that we know 
+
+* how we create and define an array in cpp :
+
+  !! as we know array should be declared with a know size (even you mention it or if the array declared with its full elements so the compiler would interpret its size)
+
+  <img width="922" height="594" alt="image" src="https://github.com/user-attachments/assets/17c16e67-8dd1-41d7-bef5-a35565b4c65d" />
+
+  <img width="923" height="720" alt="image" src="https://github.com/user-attachments/assets/f34eb6c8-3d96-4a2b-baae-b1d406a14fb0" />
+
+  these are normal and basic arrays, but at certain point they may start to seem primitive and difficult to use, this is why there is a built in std::array type
+
+  main differences and how to declare and use :
+
+  <img width="888" height="729" alt="image" src="https://github.com/user-attachments/assets/0adf5322-1b3f-4de5-a525-b51237c196f7" />
+
+  <img width="965" height="787" alt="image" src="https://github.com/user-attachments/assets/c82ba1dd-b130-4a5c-b43c-930dac822c60" />
+
+  lets go back to our basic arrays :
+
+  as we ve seen in c course, the array name is an adress so a pointer, so we cant handle it that easily (like print(array1)) this would print an adress :
+
+  <img width="872" height="621" alt="image" src="https://github.com/user-attachments/assets/f5eb2373-dc46-47ca-821c-c6ff66bb6d5c" />
+
+  we should access it and loop over it if i need any operation
+
+  <img width="935" height="604" alt="image" src="https://github.com/user-attachments/assets/f43461a3-dca1-4e87-b811-2edce60224fe" />
+
+
+<img width="674" height="80" alt="image" src="https://github.com/user-attachments/assets/75fadd8b-444e-4683-87d7-7bd416a96308" />
+
+
+<img width="842" height="571" alt="image" src="https://github.com/user-attachments/assets/93e9c91e-a9db-4ee4-941d-5472ad117e37" />
+
+
+
+### for each loop : 
+
+
+<img width="676" height="76" alt="image" src="https://github.com/user-attachments/assets/cb09a2cc-0598-4a1e-a188-8979d78308ad" />
+
+for each loop may be less flexible to use and only efficient when you would iterate over the data set forwards, but it is more easier to use in those cases : 
+
+<img width="769" height="134" alt="image" src="https://github.com/user-attachments/assets/d1ec04f8-50c7-4357-b06b-82f72c616b42" />
+
+so literally it is like for element in python 
+
+
+
 
 
 
