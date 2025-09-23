@@ -442,6 +442,153 @@ so literally it is like for element in python
 
 
 
+<hr>
+<br>
+<hr>
+<br>
+<hr>
+
+
+<p align="center">  <B>MEMORY CONTROL AND POINTERS</B> </p>
+
+
+
+### Memory adress : 
+
+&X returns the adress of x in memory
+
+
+### Passing buy value and passing by variables (with cpp functions) : 
+
+Lets check out this exmple : 
+
+![WhatsApp Image 2025-09-22 at 22 38 08_7e135fea](https://github.com/user-attachments/assets/2c149c3e-c5f5-44a0-b7df-ceb408708346)
+
+This is the common way of swapping variable values, when we print the variable we would find that the values has swaped
+
+But if we pass those variables to a function to swap them, when we print the x and y values (out of the function) we would figure out that the x and y are the same
+
+This happens because when we pass variables to a function, the function would deal with copies of those variables so actually they are different variables with different memory adress
+
+So if we want to modify a variable or a given parameter with a function, it should be passed by reference (by taking the adress of the parameters we want to modfify so we can access directly) to return the original variable modified not a copied one
+
+### Const parameter of a function : 
+
+![WhatsApp Image 2025-09-22 at 22 46 20_f3a6a52f](https://github.com/user-attachments/assets/49e54413-a21b-4a8a-92f9-62e96de92d64)
+
+
+Example : 
+
+![WhatsApp Image 2025-09-22 at 22 47 21_de6bd557](https://github.com/user-attachments/assets/dcf4439c-e65e-48ac-9f49-acf7feee2d10)
+
+
+We would obtain an error there because we tried to change a const parameter value
+
+<hr>
+<br>
+
+### pointers : 
+
+pointer is a type of variable in cpp : its data type are : Int * char * double* etc.... are data types, they are datat types of a pointer
+
+
+Declaration of pointer in cpp : so easy, just like you will see in the upcoming examples : 
+
+int * ptr or int* ptr=&x if we already have a variable to assign for it, the pointer data type is the data type of the variable which is supposed to point for
+
+
+* Null pointer :
+
+  ![WhatsApp Image 2025-09-23 at 00 04 22_88298148](https://github.com/user-attachments/assets/99555fa1-b5eb-4405-accc-2b2d4f32c3c5)
+
+
+  ![WhatsApp Image 2025-09-23 at 00 02 02_e95e1b79](https://github.com/user-attachments/assets/c4e20309-5daf-4d05-9c8b-53241424bf56)
+
+As we have seen, null pointer may be helpful to check if the adress is assigned to a pointer or not, and we will find ither useful cases when we work on such tasks
+
+
+* dereference :
+
+![WhatsApp Image 2025-09-22 at 23 49 16_d796a752](https://github.com/user-attachments/assets/5caa025a-9bda-4720-80e7-22e8432e63d1)
+
+![WhatsApp Image 2025-09-22 at 23 49 54_afc3acae](https://github.com/user-attachments/assets/a0254ab4-d73c-42a5-9fc9-4cf959670c77)
+
+!! The dereference is different from the * in the pointer declaration, the * for the pointer declaration is just a syntax need, you use it only for declaration or maybe other cases (mostly no), but the * of dereference is used to access the value stored in the adress which ptr is poiting for
+
+!!! Don't forget that the name of the array is already an adress (so basically it is a pointer) which is pointing for the adress of the first element of the array
+
+
+### Memory control : allocation, Dynamic Memory : 
+
+
+Memory control allows us to allocate and free up space whenever the code block is executed to lower memory consumption and for better optimized and efficient code
+
+With dynamic memory, we can resize the static arrays even after declaring them
+
+![WhatsApp Image 2025-09-23 at 14 17 45_23fc6ecd](https://github.com/user-attachments/assets/9ad56d5b-00c6-4e33-bef5-070260f50439)
+
+
+* Heap and stack memory : 
+
+![WhatsApp Image 2025-09-23 at 14 21 17_a42a8991](https://github.com/user-attachments/assets/16f374cf-4f53-453b-8c08-b49b4dab8776)
+
+![WhatsApp Image 2025-09-23 at 14 21 34_a809b6fa](https://github.com/user-attachments/assets/0f7bc839-3152-4061-bbef-eed612c50e18)
+
+
+! We allocate a memory cell using the prefix " new "
+
+Let follow up this simple example : 
+
+![WhatsApp Image 2025-09-23 at 14 42 12_52dc4642](https://github.com/user-attachments/assets/56a94c1f-70db-4e2c-880c-9708e0ddd6dc)
+
+
+1- We created a pointer with no adress (null)
+2- We assigned to this pointer a newly allocated memory cell
+3-With dereferencew we accessed to this memory cell value and assigned to it 21 as a value
+
+* delete :
+
+used to free a memory cell : you give it the adress (so obviously the pointer) to free its space
+
+Just like this example, we usually free the memory space after the execution of the code and we no longer need those memory cells  holding the variables data which we finished from handling them
+
+!!!!!! Delete only works on dynamically allocated memory space (with new)
+
+![WhatsApp Image 2025-09-23 at 15 40 34_1e2f64b1](https://github.com/user-attachments/assets/3ef432d4-c919-4867-9ddb-ad6030ce5049)
+
+
+<hr>
+<br>
+
+### Arrays, pointers & dynamic memory :
+
+
+To allocate an array : 
+
+We will declare a pointer initialized with null ( with char type seeing that the array would be a vector of char ) 
+Char * arr = Null
+Then : 
+
+Char arr = new char [ size] 
+
+So we allocated the array, its pointer is certainly its name as we have seen, which is arr
+
+
+![WhatsApp Image 2025-09-23 at 15 56 49_a26d1c5b](https://github.com/user-attachments/assets/259ab739-d4c3-42de-b2e1-158fe9fdfb98)
+
+We have a dynamically allocated array called arr, so basically arr is the adress of the array, (the first element of the array), so to delete the whole array, you should type delete[ ] arr, otherwise it would only delete the first element of the erray then we would have undefined behavior
+
+
+Follow me with this example : 
+
+![WhatsApp Image 2025-09-23 at 16 08 09_9da32139](https://github.com/user-attachments/assets/7bc1f12a-8688-4115-868b-5c370060067f)
+
+Pgrade is the array of char that we would allocate
+
+![WhatsApp Image 2025-09-23 at 16 16 18_3aa4a9e1](https://github.com/user-attachments/assets/61d5afeb-7fcb-4f6a-9501-7e663cfa238b)
+
+
+So we have filled the pgrade array elements, then we have deleted it
 
 
 
