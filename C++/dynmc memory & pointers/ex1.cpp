@@ -1,3 +1,13 @@
+// Reverse an array using pointers
+
+/* Given an array of integers, reverse its contents using pointers.
+int arr[] = {1, 2, 3, 4, 5};
+int size = sizeof(arr) / sizeof(arr[0]); */
+
+// Use two pointers: one at the start, one at the end.
+// Swap elements until they meet.
+
+
 #include <iostream>
 
 int main() {
@@ -24,3 +34,4 @@ int main() {
 
     return 0;
 }
+
