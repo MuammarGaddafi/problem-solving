@@ -395,6 +395,15 @@ You know the concept of overloading from the oop lesson, so in cpp you can have 
 
 arrays are the same as the table concept that we know 
 
+
+There are two types of array in cpp :
+
+![WhatsApp Image 2025-09-28 at 16 32 46_72542b67](https://github.com/user-attachments/assets/6cd72781-1947-4503-987d-591307368109)
+
+![WhatsApp Image 2025-09-28 at 16 33 07_aeffe2f6](https://github.com/user-attachments/assets/999bbf51-c6aa-42fb-8748-e172ee7e4c32)
+
+
+
 * how we create and define an array in cpp :
 
   !! as we know array should be declared with a know size (even you mention it or if the array declared with its full elements so the compiler would interpret its size)
@@ -591,7 +600,37 @@ Pgrade is the array of char that we would allocate
 So we have filled the pgrade array elements, then we have deleted it
 
 
+## vectors : 
 
+
+Vectors are dynamic data structure in cpp, they are like the lists in python, but just like all the cpp data structures, it accepts only vlaues from the same data type
+
+
+Creating a vector :
+
+![WhatsApp Image 2025-09-28 at 17 08 46_7bb16d11](https://github.com/user-attachments/assets/711ed20b-eba9-4f52-9e96-3b86751d9c36)
+
+
+V1.front() gives us the front value of the vector
+
+V1.back() gives us the back value of the vector
+
+V1.size() gives us the number of elements of v1
+
+
+V1.push_back / v1.push_front : push a value into the back or the front of the vector, and the same thing with pop back and pop front
+
+
+Inserting and deleting elements : its a little bit particular and irregular in cpp, we always insert starting from the v1.begin() or v1.end() which return the first or last index of the vector
+
+So if we want to i sert an element in specific position we should add it up to the v1.begin() which is 0
+
+<img width="631" height="125" alt="image" src="https://github.com/user-attachments/assets/787a9514-5575-4466-9a1d-feeb10aa4e54" />
+
+
+erasing : 
+
+<img width="705" height="203" alt="image" src="https://github.com/user-attachments/assets/c54caa55-81ae-4bf5-84c6-fc9e71b46670" />
 
 
 
