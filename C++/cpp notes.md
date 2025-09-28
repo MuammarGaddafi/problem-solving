@@ -10,3 +10,8 @@ std::string is the common way of declaring a string just like in python, it is a
 
 
 even when it comes to pointers, const char behaves identically to an array, its pointer is its name, and points to the first element while the std char object pointer pointd to the whole string as one object
+
+
+### declaring data structure with mixed and different types of values (mainly a vector) : 
+
+![WhatsApp Image 2025-09-28 at 17 57 09_6a3953e4](https://github.com/user-attachments/assets/22f4ebcd-7482-4ac3-b7d2-80fcb08817ec)
