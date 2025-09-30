@@ -15,3 +15,10 @@ even when it comes to pointers, const char behaves identically to an array, its 
 ### declaring data structure with mixed and different types of values (mainly a vector) : 
 
 ![WhatsApp Image 2025-09-28 at 17 57 09_6a3953e4](https://github.com/user-attachments/assets/22f4ebcd-7482-4ac3-b7d2-80fcb08817ec)
+
+
+
+### iterators : 
+
+
+<img width="994" height="870" alt="image" src="https://github.com/user-attachments/assets/9bb2d741-a728-452c-a423-a74f7c2a6b6d" />
