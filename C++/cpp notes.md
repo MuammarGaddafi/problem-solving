@@ -22,3 +22,11 @@ even when it comes to pointers, const char behaves identically to an array, its 
 
 
 <img width="994" height="870" alt="image" src="https://github.com/user-attachments/assets/9bb2d741-a728-452c-a423-a74f7c2a6b6d" />
+
+
+
+### inline functions, lambda alikes in cpp, passing a function as a variable in data structure : 
+
+
+
+
