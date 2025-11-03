@@ -28,5 +28,32 @@ even when it comes to pointers, const char behaves identically to an array, its 
 ### inline functions, lambda alikes in cpp, passing a function as a variable in data structure : 
 
 
+one of the main utilities of lambda functions in C++ is exactly that: to create inline, unnamed functions without needing a separate declaration.
+
+Suntax : 
+
+[capture](parameters) -> return_type { body }
+
+
+Example : 
+
+
+auto add = [](int x, int y) { return x + y; };
+
+std::cout << add(3, 5);  // Output: 8
+
+![WhatsApp Image 2025-11-03 at 17 35 34_d55373c1](https://github.com/user-attachments/assets/804a3be1-d970-42b2-8c35-4484c80a2e33)
+
+
+example (by the way we could have used defined functions and put their names as the unordered list values) : 
+
+
+<img width="620" height="213" alt="image" src="https://github.com/user-attachments/assets/f9185eb8-f90f-4ced-a278-beccffa6c57d" />
+
+
+and this is how we use them : 
+
+<img width="278" height="29" alt="image" src="https://github.com/user-attachments/assets/8bd0196b-7e64-4a33-a73d-c326d66400bc" />
+
 
 
