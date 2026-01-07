@@ -20,3 +20,8 @@ The last step where mid point and target meet up :
 
 ![WhatsApp Image 2025-12-11 at 18 21 45_6ac389c5](https://github.com/user-attachments/assets/e0d8e3db-9522-4284-98b4-63de1558c7e1)
 
+
+
+## implementation (cpp) : 
+
+<img width="1638" height="698" alt="image" src="https://github.com/user-attachments/assets/e174578e-0bfb-4d54-be8d-2f5b2fc7d648" />
