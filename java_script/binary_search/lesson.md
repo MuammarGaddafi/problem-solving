@@ -25,3 +25,8 @@ The last step where mid point and target meet up :
 ## implementation (cpp) : 
 
 <img width="1638" height="698" alt="image" src="https://github.com/user-attachments/assets/e174578e-0bfb-4d54-be8d-2f5b2fc7d648" />
+
+
+in js : 
+
+<img width="1026" height="807" alt="image" src="https://github.com/user-attachments/assets/ef24b919-e7e6-4ec7-8aee-3cd92dfdc1e7" />
