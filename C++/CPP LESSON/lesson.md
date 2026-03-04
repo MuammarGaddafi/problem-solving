@@ -633,7 +633,33 @@ erasing :
 <img width="705" height="203" alt="image" src="https://github.com/user-attachments/assets/c54caa55-81ae-4bf5-84c6-fc9e71b46670" />
 
 
+## Multidimensional arrays in cpp :
 
+How to declare them :
+
+![WhatsApp Image 2026-01-08 at 7 20 03 PM](https://github.com/user-attachments/assets/fc2684f6-46fe-4a46-8958-76ad63273045)
+
+We can also define only one dimension, and then filling it so it would interpret the other dimension :
+
+
+![WhatsApp Image 2026-01-08 at 7 22 14 PM](https://github.com/user-attachments/assets/8163cd8d-66d6-4524-bcf7-65eb57841b10)
+
+
+## function templates in cpp : 
+
+<img width="1125" height="728" alt="image" src="https://github.com/user-attachments/assets/a84ae9be-4a10-46d0-b5cb-49a9665a5cb3" />
+
+<img width="1125" height="1180" alt="image" src="https://github.com/user-attachments/assets/5fb7c41a-6581-48da-90fa-cc8e0747ee7f" />
+
+<img width="1125" height="1330" alt="image" src="https://github.com/user-attachments/assets/28b11ab0-3359-4aec-bdd7-877bb2d7c847" />
+
+<img width="1125" height="1290" alt="image" src="https://github.com/user-attachments/assets/343cce2a-c1e9-414b-a24b-b1de0484c0c3" />
+
+<img width="1125" height="1290" alt="image" src="https://github.com/user-attachments/assets/b5e2ae7e-bb83-4c87-b6d6-a9c38ca2df05" />
+
+
+
+<img width="972" height="473" alt="image" src="https://github.com/user-attachments/assets/07bcc53e-2ff3-4b18-b7f4-b6dffb139f01" />
 
 
 
